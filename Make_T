@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>To Do</title>
+    <title>Games Steam</title>
 </head>
 <body>
-    <p>The open items are as follows: </p>
-    <table border="1">
+    <p>NEW  Steam:</p>
+    <table border="13">
+
+    <tr><td>Titulo</td><td>Precio</td><td>Etiquetas</td><td>Plataformas</td>
     %for row in rows:
         <tr>
         %for col in row:
