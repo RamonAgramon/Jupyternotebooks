@@ -13,8 +13,8 @@
     <tr><td>Titulo</td><td>Precio</td><td>Etiquetas</td><td>Plataformas</td>
     %for row in rows:
         <tr>
-        %for col in row:
-            <td>{{col}}</td>
+        %for Columna,Valor in row.items():
+            <td>{{Valor}}</td>
         %end
         </tr>
     %end
